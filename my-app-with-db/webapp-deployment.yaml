@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: webapp
-        image: gcr.io/google-samples/node-hello:1.0
+        image: hello-world
         env:
           - name: REDIS_HOST
             value: "redis-service"
