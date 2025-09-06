@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: webapp
-        image: richardleung/docker-web-app:1.0
+        image: gcr.io/google-samples/node-hello:1.0
         env:
           - name: REDIS_HOST
             value: "redis-service"
