@@ -1,0 +1,8 @@
+# my-helm-app/values.yaml
+replicaCount: 2
+image:
+  repository: nginx
+  tag: 1.14.2
+  pullPolicy: IfNotPresent
+service:
+  type: NodePort
